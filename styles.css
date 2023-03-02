@@ -1,4 +1,32 @@
-body{
+/*
+ 1. Posicionamiento 
+ 2. Box model
+ 3. Tipografía
+ 4. Visual
+ 5.Otros
+ */
+
+:root{
+/* Creación variables de colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-2: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* Para hacer el uso de rem */
+    font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
 }
